@@ -1,0 +1,57 @@
+.button1 {
+    background-color: green;
+    border: none;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 0.6;
+  }
+
+  .button1:hover {opacity: 1}
+
+  @font-face{
+    font-family: 'Skyfall';
+    src: url("Skyfall.ttf");
+}
+
+@font-face{
+    font-family: 'star wars';
+    src: url("Starjout.ttf");
+}
+
+.w3-animate-right1{position:relative;animation:animateright 1s}@keyframes animateright{from{right:-10000px;opacity:0} to{right:0px;opacity:1}}
+.w3-animate-right2{position:relative;animation:animateright 1.5s}@keyframes animateright{from{right:-10000px;opacity:0} to{right:0px;opacity:1}}
+.w3-animate-right3{position:relative;animation:animateright 2s}@keyframes animateright{from{right:-10000px;opacity:0} to{right:0px;opacity:1}}
+.w3-animate-right4{position:relative;animation:animateright 2.5s}@keyframes animateright{from{right:-10000px;opacity:0} to{right:0px;opacity:1}}
+.w3-animate-right5{position:relative;animation:animateright 3s}@keyframes animateright{from{right:-10000px;opacity:0} to{right:0px;opacity:1}}
+.w3-animate-right6{position:relative;animation:animateright 3.5s}@keyframes animateright{from{right:-10000px;opacity:0} to{right:0px;opacity:1}}
+.w3-animate-right7{position:relative;animation:animateright 4s}@keyframes animateright{from{right:-10000px;opacity:0} to{right:0px;opacity:1}}
+
+.myVideo {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+  }
+  
+  .myVideo video {
+    min-width: 100%; 
+    min-height: 100%; 
+    max-width: screen;
+    max-height: screen;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    zoom: 0.01;
+    z-index: -1;
+  }
